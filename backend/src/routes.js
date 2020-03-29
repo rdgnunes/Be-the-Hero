@@ -8,8 +8,8 @@ const SessionController = require('./controllers/SessionController');
 routes.get('/ongs', OngController.index);
 routes.post('/ongs', OngController.create);
 
-routes.get('/Profile', ProfileController.index);
-routes.post('/Session', SessionController.create);
+routes.get('/profile', ProfileController.index);
+routes.post('/session', SessionController.create);
 
 routes.get('/incidents', IncidentsController.index);
 routes.post('/incidents', IncidentsController.create);
