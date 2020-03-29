@@ -1,0 +1,3 @@
+[submodule "frontendmobile"]
+	path = frontendmobile
+	url = https://github.com/rdgnunes/Be-the-Hero.git
